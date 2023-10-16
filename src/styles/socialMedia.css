@@ -1,0 +1,38 @@
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6.25rem;
+ 
+}
+.social-media__bar {
+  width: 4px;
+  height: 340px;
+  background-color: #f2f2f2;
+}
+
+.social-media__link {
+  margin: 10px 10px;
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+.footer {
+  width: 100vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  
+}
+
+@media (prefers-color-scheme: light){
+  .social-media__bar {
+   
+    background-color: #1D1D1D;
+  }
+  .social-media__link {
+    color: #1D1D1D;
+  }
+  
+}
